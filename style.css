@@ -1,49 +1,34 @@
-.main-body{
-    margin: auto;
-    margin-top: 70px;
-    width: 80%;
-    height: 100%;
-}
-.search-bar{
-    margin: auto;
-    padding: 70px;
-    width: 40%;
-
-}
-#meal{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:10px ;
+.meal img{
+    width: 200px;
 }
 
-.main-div{
+.meal{
+    border:1px solid goldenrod;
+    border-radius: 20px;
     text-align: center;
-    padding: 15px;
-    margin: 0 auto;
-    
+    width: 310px;
+}
+.meal h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: darkgoldenrod;
+}
+#meal-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.mealInfo img{
+    width: 200px;
+}
+.mealInfo{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    width: 350px;
+    padding: 30px 50px;
 }
 .meal-name{
-    font-size: 30px;
-}
-
-.Ingredient{
-    margin: auto;
-    margin-top: 15px;
-  width: 100%;
-  padding: 10px;
-}
-
-img{
-    width: 300px;
-    
-}
-
-ul li{
-    font-weight: bold;
-}
-h4.meal-name {
-    margin-top: 20px;
-}
-#first-div{
-    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: goldenrod;
 }
